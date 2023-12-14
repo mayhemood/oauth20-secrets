@@ -3,6 +3,8 @@ In this project, I have used Google OAuth 2.0 for signing in and signing up. The
 There is a local way of signing in and signing up as well, and then user can post secret(s) or view all the secrets.
 The identity of users is not revealed with the secrets.
 
+The email for the Google OAuth user is randomly generated with user1@googleauth.com with number incrementing for every user. The database stores a password of ****** which is just to populate the field in the database and not the real google password of the user.
+
 # Prerequisites
 * Node.js installed on your system
 * PostgreSQL database installed and running
