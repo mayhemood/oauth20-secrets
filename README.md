@@ -1,4 +1,4 @@
-# Google OAtuh2.0 and Bcrypt (Hash + Salting)
+# Google OAuth2.0 and Bcrypt (Hash + Salting)
 In this project, I have used Google OAuth 2.0 for signing in and signing up. The only data stored in my database is GoogleId. 
 There is a local way of signing in and signing up as well, and then user can post secret(s) or view all the secrets.
 The identity of users is not revealed with the secrets.
